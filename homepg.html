@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Management System</title>
+</head>
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    background-color: aliceblue;
+}
+
+header {
+    text-align: center;
+    height: 200px;
+}
+
+nav {
+    background-color:rgb(180, 232, 253);
+    padding: 1em;
+   ;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display:inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #181414;
+    font-weight: bold;
+}
+nav a:hover{
+    color: rgb(51, 124, 126);
+}
+.grid-outer{ 
+    margin:30px 200px auto 10px;
+    display: grid;
+    grid-area: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 80px;
+    grid-column-gap: 50px;   
+}
+.card {
+    border: 2px solid rgb(237, 233, 233);
+    margin: 10px 10px;
+    height:200px;
+    text-align: center;
+    border-radius: 5px;
+}
+.card:hover{
+    border:3px solid blue;
+    cursor:pointer;
+}
+#cors{
+    color:rgb(51,124,126);
+}
+footer{
+    margin-top:5%;
+    margin-left: 1000px;
+    margin-right: 100px;
+    background-color: beige;
+}
+.top{
+    margin-left: 130px;
+    width:max-content;
+    margin-top: 20px;
+}
+.lms{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 4000px;
+    color:darkblue;
+    text-shadow: 2px 3px skyblue;
+    background-color: rgb(138, 241, 241);
+}
+.ap{
+    height: 30px;
+    width:300px;
+    color:darkblue;
+    margin-top:30px;
+    margin-left: 40px;
+    margin-right:900px;
+    border:2px solid black;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 22px;
+    padding:10px;
+    background-color: rgb(172, 245, 245);
+}
+.rosh{
+    text-decoration: none;
+}
+#chet:hover{
+    text-decoration: underline;
+}
+#chet{
+    font-size: 12px;
+}
+</style>
+<body>
+    <nav>
+        <div class="lms">
+             Learning Management System
+        </div><br>
+        <ul>
+            <li><a href="#" id="cors">Home</a></li>
+            <!-- <li><a href="" >Courses</a></li> -->
+            <li><a href="http://127.0.0.1:5500/profile.html">Profile</a></li>
+            <li><a href="http://127.0.0.1:5500/login.html" id="logout">Logout</a></li>
+            <li><a href="http://127.0.0.1:5500/aboutlms.html" id="about" >About Us!</a></li>
+        </ul>
+    </nav>
+        <div class="top">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXMwlxNOyHqhvPF3nknOI9KERC7qd9QajVDA&usqp=CAU" height="300" width="1000" id="image">
+        </div>
+   <div class="ap">
+        Courses Available.... <a class="rosh" href="http://127.0.0.1:5500/couse.html"><span id="chet">Click for more</span></a>
+    </div>
+    
+    <div class="grid-outer">
+        <div class="card" id="it1">
+            <a href="https://www.udemy.com/share/101URk3@cZh0nTWHnuMof5zLw80lt1XEYcVqyxq9w8qOlWeymiNOD3vpoRFrYCtUxEFxAJ5TTA==/" target="_blank">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2023/1/BB/MM/EE/16435775/python-training-service.png" height="200px"width="350px">
+            <p> Best-Python-Programming-Courses-For-Beginners-//Free Courses.... </p></a>
+        </div>
+        <div class="card" id="it2">
+            <a href="https://www.udemy.com/share/1013gG3@bb9_l7tsq8whXUnNRjURVZFtVhy9UMRo32e90ywxLSY1e8zisaZLyKeLdVUtGzmjrA==/" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaXNsBOB04xtHQU_k60lZaGVJdDrQdklyWxw&usqp=CAU" height="200px"width="350px">
+            <p> Full Web Development Training-//Free Courses....</p></a>
+        </div>
+        <div class="card" id="it3">
+            <a href="https://www.udemy.com/share/104hlM3@alwIPfPJt_bmJhrdqXEFS42KyhrtTV9dLqMZ_gm1rtznUw8oGWaq09dqS0tjRNhtqg==/" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG0xTtlRusKWrBhfVfHfUXHoNt2fg4KhK7mw&usqp=CAU" height="200px"width="350px">
+            <p>Mastery in Leadership and Management-//Free Certification...</p></a>
+        </div>
+        <div class="card" id="it4">
+            <a href="https://www.udemy.com/share/101Wn23@6MuVb4R-VnBJdjTdawTxul8oDPSihN17-T5xopOqo0VkMZqugY2LXv0ZR4UiXBJvyQ==/" target="_blank">
+                 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230629123647/Best-C-Programming-Courses-For-Beginners.png" height="200px"width="350px">
+            <p>Full-C-Language-Course-For-Beginners-//With Certificates..... </p></a>
+        </div>
+        <div class="card" id="it5">
+            <a href="https://www.udemy.com/share/1013Aw3@TF8gUgQuCY0ZXuTLePhOBOA_2_mqT_hcX6S4hrkdnuhulqQ9dudedjVQMeirpXfQ0A==/" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFoa6SICcUg6_WTgKrk85_yTneBdNtTvEsDw&usqp=CAU" height="200px"width="350px">
+            <p>Boost Up Your Confindence-//Course on Communication Skills.... </p></a>
+        </div>
+        <div class="card" id="it6">
+            <a href="https://www.udemy.com/share/1049Ug3@Qfe7gKgZq0WhQ4hCEZpdRKuE9o77bTR6gNsCDW1UL8J6I9pznnE5lFLiimP5zMi6MA==/" target="_blank">
+                <img src="https://i0.wp.com/www.admecindia.co.in/wp-content/uploads/2020/01/java-1.jpg?fit=390%2C355&ssl=1" height="200px"width="350px">
+            <p>Learn Java Programming-//Free Course.... </p></a>
+        </div>
+        <div class="card" id="it7">
+            <a href="https://www.udemy.com/share/109FB83@YVQBltosLrHH5k76R0WRp8efzklSJJ-yTfMeElJE7dLiIIvNwEYnkUDmNXKp4b2R7w==/" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU8t9xeCSpcaycBa0axAEh3_QWLLJWhAXg5w&usqp=CAU" height="200px"width="350px">
+            <p>Learn-Some-Basic-Concepts-Of-Cyber-Security-//For beginners with Certificates</p></a>
+        </div>
+    </div>
+    
+</body>
+<script>
+     var myImage = document.getElementById("image");
+        let array  = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXMwlxNOyHqhvPF3nknOI9KERC7qd9QajVDA&usqp=CAU","https://media.licdn.com/dms/image/D5612AQFaDvxG9pcJMA/article-cover_image-shrink_600_2000/0/1693722744891?e=2147483647&v=beta&t=Tnm9EgnVKxrHONKpc1FBdiEi2yIDezjCe1urcI1wfjE", "https://media.geeksforgeeks.org/wp-content/uploads/20221026130806/7BestComputerScienceCoursestoTakein2022.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmJaU-V_jiWmF0nsq2P0Ga7HnqylopmNs8qg&usqp=CAU"]
+        var imageIndex = 0; 
+
+        function changeImage() {
+            myImage.setAttribute("src",array[imageIndex]);
+            imageIndex = (imageIndex + 1) % array.length;
+        }
+        setInterval(changeImage, 2000);
+</script>
+<footer>
+   <div><p>For any Query You Can contact us!<br>
+        09200115789</p>
+</div> 
+</footer>
+</html>
